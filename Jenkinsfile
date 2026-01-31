@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://https://github.com/vnsslprasanna-garimella/Tomcat/tree/master.git'
+                git 'https://github.com/vnsslprasanna-garimella/Tomcat.git'
             }
         }
 
